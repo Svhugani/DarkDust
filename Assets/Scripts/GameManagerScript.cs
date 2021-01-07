@@ -15,7 +15,7 @@ public class GameManagerScript : MonoBehaviour
     private int _idNumber = 0;
     private List<DroneAgentBrain> _listOfDroneAgentBrains = new List<DroneAgentBrain>();
     private float _minFitness = 0;
-    private int _numberOfTopNeuralNets = 10;
+    private int _numberOfTopNeuralNets = 30;
     private List<GeneticNeuralNetwork> _topNeuralNets = new List<GeneticNeuralNetwork>();
     private bool _isInitialDataCollected = false;
     private int _rateSwitcher = 1;

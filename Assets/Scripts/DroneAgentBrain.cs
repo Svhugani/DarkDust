@@ -65,7 +65,7 @@ public class DroneAgentBrain : MonoBehaviour
     void Awake()
     {
         //_neuralStructure = new int[] { 14, 16, 32, 16, 8, 3 };
-        _neuralStructure = new int[] { 13, 32, 3 };
+        _neuralStructure = new int[] { 13, 64,  3 };
         neuralBrain = new GeneticNeuralNetwork(_neuralStructure);
         _rigidbody = GetComponent<Rigidbody>();
         _rigidbody.useGravity = false;
